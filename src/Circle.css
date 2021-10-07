@@ -1,0 +1,22 @@
+.circle{
+    width: 5rem;
+    height: 5rem;
+    border: 1px solid purple;
+    border-radius: 50%;
+    /* background: conic-gradient(brown 0.00%, black 0.00% 0.55%, blue 0.55% 6.08%, green 6.08% 13.68%, yellow 13.68% 23.27%, orange 23.27% 40.47%, red 40.47%); */
+}
+.value{
+    color: purple;
+    font-size: 1.5rem;
+}
+.innercircle{
+    width: 4rem;
+    height:4rem;
+    border: 1px solid purple;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 8%;
+    background-color: white;
+    display: grid;
+    place-items: center;
+}

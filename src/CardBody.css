@@ -1,0 +1,51 @@
+.cardBody {
+  width: 60%;
+  height: 40%;
+  margin: auto;
+  margin-top: 5%;
+  display: flex;
+  font-weight: bold;
+  border-radius: 15px;
+  padding: 5%;
+  box-shadow: 0 0 10px #ccc , 0 0 20px #ccc;
+}
+.heading {
+  text-align: center;
+  font-size: 2rem;
+}
+.score {
+  color: purple;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+.firstCol {
+
+  text-align: center;
+}
+
+
+.secondCol {
+    width: auto;
+  margin:auto;
+  text-align: center;
+}
+li {
+  list-style: none;
+  color: purple;
+}
+.skillschart {
+  margin-top: 4%;
+}
+
+@media (max-width: 800px) {
+  .cardBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .secondCol {
+    width: auto;
+  margin:auto;
+  text-align: center;
+}
+}
